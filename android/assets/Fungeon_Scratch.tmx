@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="50" height="10" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="black" tilewidth="64" tileheight="64">
+  <image source="black.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Hit" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="grey" tilewidth="64" tileheight="64">
+  <image source="grey.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="50" height="10">
+  <properties>
+   <property name="Hit" value=""/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBwmmGmI41F/YJpBzfAg1UxK7MeljxL/kGsmOf4gJYzoZSapcUfNMKammcT4g1rpnpGGZlIzn1PDXeSaOdD1FjUxADhvA1s=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="50" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYBommHGI41F/YJpBzfAg1UxK7MeljxL/kGsmOf4gJYzoZSapcUfNMKammcT4g1rpnomGZlIzn1PDXeSaOdD1FjUxAMeTAoM=
+  </data>
+ </layer>
+</map>
